@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ramon-website/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/ramon-website/static/js/main.5eff892c.chunk.js",
+    "main.js.map": "/ramon-website/static/js/main.5eff892c.chunk.js.map",
+    "runtime-main.js": "/ramon-website/static/js/runtime-main.3fcbe000.js",
+    "runtime-main.js.map": "/ramon-website/static/js/runtime-main.3fcbe000.js.map",
+    "static/js/2.84abfc39.chunk.js": "/ramon-website/static/js/2.84abfc39.chunk.js",
+    "static/js/2.84abfc39.chunk.js.map": "/ramon-website/static/js/2.84abfc39.chunk.js.map",
+    "static/js/3.e92d823f.chunk.js": "/ramon-website/static/js/3.e92d823f.chunk.js",
+    "static/js/3.e92d823f.chunk.js.map": "/ramon-website/static/js/3.e92d823f.chunk.js.map",
+    "index.html": "/ramon-website/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/ramon-website/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.84abfc39.chunk.js.LICENSE.txt": "/ramon-website/static/js/2.84abfc39.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/ramon-website/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fcbe000.js",
+    "static/js/2.84abfc39.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.5eff892c.chunk.js"
+  ]
+}
