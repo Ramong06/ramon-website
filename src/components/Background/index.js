@@ -24,8 +24,6 @@ const Background = () => {
     return (
         <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
             <div className="App-content">
-                <h1>Pineapples</h1>
-                <p>They are good</p>
             </div>
         </div>
     );
