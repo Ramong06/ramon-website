@@ -1,0 +1,52 @@
+body {
+  background: #f6f6f2;
+}
+
+h2 {
+  text-align: center;
+  color: #388087;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+.card {
+  margin-top: 3vh;
+  color: black !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.card-link {
+  color: black !important;
+  font-weight: bolder;
+}
+
+.card-text {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.btnName{
+    color: white;
+}
+
+.cardBtn {
+    border-radius: 8px;
+    background-color: #388087;
+}
+
+#cardBtn {
+    margin-bottom: 25px;
+}
+
+#gitBtn {
+  margin-left: 10px;
+}
