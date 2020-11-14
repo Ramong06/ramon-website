@@ -4,7 +4,7 @@ import './style.css'
 export const BackgroundImage = () => {
     return (
         <div>
-            <img className="backgroundImage" src="https://wallpapercave.com/wp/wp3573278.jpg" alt={"Error"} />
+            <img className="backgroundImage" src="https://cdn.wallpapersafari.com/95/37/lZuCVG.jpg" alt={"Error"} />
         </div>
     )
 }
