@@ -5,7 +5,7 @@ import "./style.css";
 function Nav() {
   return (
       <nav className="navbar navbar-expand-lg navbar-light " id="navBar">
-      <Link className="navbar-brand" style={{ fontSize: "26px" }} to="/home">
+      <Link className="navbar-brand" style={{ fontSize: "26px" }} to="/">
         Ramon <span className="letter-g">G</span>arza III
       </Link>
         <button
@@ -21,18 +21,18 @@ function Nav() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
+          {/* <li className="nav-item active">
             <Link
-              to="/Home"
+              to="/"
               className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >
               Home 
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item active">
             <Link
-              to="/"
+              to="/about"
               className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >

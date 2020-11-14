@@ -1,16 +1,13 @@
 import React from "react";
 import "../App.css"
-import HomeNavbar from "../components/HomeNavbar";
-// import Row from "../components/Row";
-// import Col from "../components/Col";
-// import Container from "../components/Container"
 import Background from "../components/Background";
+import Nav from "../components/Nav";
 
 function HomePage() {
 
     return (
         <div>
-            <HomeNavbar />
+            <Nav />
             <Background></Background>
         </div>
     );
