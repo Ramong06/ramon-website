@@ -38,5 +38,8 @@
 .profilePic {
     border-radius:3%;
     padding: 3px;
-    border: 3px solid whitesmoke;
+    border: 3px solid rgba(0, 0, 0, 0.276);
+    height: 80%;
+    width: 100%;
+    margin-top: 55px;
 }

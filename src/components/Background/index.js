@@ -1,32 +1,10 @@
+import React from "react"
+import './style.css'
 
-
-import React, { useState, useEffect } from 'react';
-import './style.css';
-import desktopImage from '../../assets/img(11).jpg';
-import mobileImage from '../../assets/img(11).jpg';
-
-const Background = () => {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const imageUrl = windowWidth >= 650 ? desktopImage : mobileImage;
-
-    useEffect(() => {
-        const handleWindowResize = () => {
-            setWindowWidth(window.innerWidth);
-        };
-        
-        window.addEventListener('resize', handleWindowResize);
-
-        return () => {
-            window.removeEventListener('resize', handleWindowResize);
-        }
-    }, []);
-    
+export const BackgroundImage = () => {
     return (
-        <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
-            <div className="App-content">
-            </div>
-        </div>
-    );
-};
+        <img className="backgroundImage" src="https://wallpapercave.com/wp/wp3573278.jpg" alt={"Error"} />
+    )
+}
 
-export default Background;
+export default BackgroundImage;
