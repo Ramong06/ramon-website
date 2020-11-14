@@ -4,7 +4,7 @@ import "./style.css";
 
 function Nav() {
   return (
-      <nav className="navbar navbar-expand-lg navbar-light " id="navBar">
+      <nav className="navbar navbar-expand-lg navbar-dark " id="navBar">
       <Link className="navbar-brand" style={{ fontSize: "26px" }} to="/">
         Ramon <span className="letter-g">G</span>arza III
       </Link>
