@@ -5,7 +5,7 @@ import "../App.css"
 import Container from "../components/Container";
 // import Hero from "../components/Hero";
 import Row from "../components/Row";
-// import Col from "../components/Col";
+import Col from "../components/Col";
 
 
 function Resume() {
@@ -48,6 +48,33 @@ function Resume() {
         </Row>
         <Row>
           <h5>Logistics Manager - Houston,TX | 01/2018-04/2020</h5>
+          <p>Effectively coordinated oil and gas material to be delivered to location in a timely and safe manner.</p>
+          <p>- Decreased company spending and increased revenue by brokering more deliveries to South Texas instead of out of state.</p>
+        </Row>
+        <Row>
+          <h4>Wood</h4>
+        </Row>
+        <Row>
+          <h4>Multi-Skilled Operator (MSO) - South, TX | 10/2011 - 12/2018</h4>
+          <p>Keep track of all single-well and multi-well facilities oil and natural gas production. Apply proper maintenance to equipment when
+            and if necessary.</p>
+          <ul>
+            <li>- Promoted after only one year to team Lead</li>
+            <li>- Assigned to largest production facilities owned by company</li>
+            <li>- Awarded safety leader in 2012</li>
+          </ul>
+        </Row>
+        <Row>
+          <h2>Education</h2>
+        </Row>
+        <Row>
+          <h4>Full Stack Web Development Certificate - University of Texas​; Houston, TX | 2020 </h4>
+        </Row>
+        <Row>
+          <p>A 24-week intensive boot camp program focused on gaining technical programming and market-driven skills.</p>
+          <Col size="md-12 sm-6 justify-content-md-center">
+            <img className="bootcampCert" height="400px" src="./assets/bootcampCert.png" alt={"Error"} />
+          </Col>
         </Row>
 
         
