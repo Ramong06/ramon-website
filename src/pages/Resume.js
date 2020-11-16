@@ -7,7 +7,7 @@ import Nav from "../components/Nav";
 import Container from "../components/Container";
 
 
-function Gallery() {
+function Resume() {
 
   return (
     <div>
@@ -19,4 +19,4 @@ function Gallery() {
     );
 }
 
-export default Gallery;
+export default Resume;
