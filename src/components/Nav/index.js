@@ -22,13 +22,13 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <Link
+            {/* <Link
               to="/resume"
               className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >
               Resumé
-            </Link>
+            </Link> */}
           </li>
           <li className="nav-item active">
             <Link
