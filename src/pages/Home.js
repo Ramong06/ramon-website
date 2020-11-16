@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css"
 import Background from "../components/Background";
 import Nav from "../components/Nav";
 
