@@ -23,20 +23,11 @@ function Nav() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <Link
-              to="/resume"
-              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
-              id="hoverable"
-            >
-              Resumé
-            </Link>
-          </li>
-          <li className="nav-item active">
-            <Link
               to="/about"
               className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >
-              About 
+              About Me 
             </Link>
           </li>
           <li className="nav-item active">
@@ -45,7 +36,16 @@ function Nav() {
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >
-              Projects 
+              My Work 
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link
+              to="/resume"
+              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+              id="hoverable"
+            >
+              Resumé
             </Link>
           </li>
         </ul>
