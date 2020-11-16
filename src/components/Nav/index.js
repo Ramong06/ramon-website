@@ -21,15 +21,15 @@ function Nav() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
-          {/* <li className="nav-item active">
+          <li className="nav-item active">
             <Link
-              to="/"
-              className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}
+              to="/resume"
+              className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >
-              Home 
+              Resumé
             </Link>
-          </li> */}
+          </li>
           <li className="nav-item active">
             <Link
               to="/about"

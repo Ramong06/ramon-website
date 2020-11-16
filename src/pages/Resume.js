@@ -4,9 +4,7 @@ import Nav from "../components/Nav";
 // import Hero from "../components/Hero";
 // import Row from "../components/Row";
 // import Col from "../components/Col";
-import Footer from "../components/Footer";
 import Container from "../components/Container";
-// import BioCard from "../components/BioCard";
 
 
 function Gallery() {
@@ -15,8 +13,8 @@ function Gallery() {
     <div>
       <Nav />
       <Container>
+        <h1>Resumé</h1>
       </Container>
-      <Footer />
       </div>
     );
 }
