@@ -27,7 +27,7 @@ function Nav() {
               className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}
               id="hoverable"
             >
-              About Me 
+              About 
             </Link>
           </li>
           <li className="nav-item active">
