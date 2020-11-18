@@ -37,19 +37,21 @@ function Resume() {
           <h4>Spatial Consulting</h4>
         </Row>
         <Row>
-          <h5>Full Stack Developer - Houston, TX | 04/2018-Present</h5>
+          <h5>Full Stack Developer - Houston, TX | 01/2018-Present</h5>
           <p>Interfacing and translating client’s business requirements into technical applications and solutions. Tasked to handle end-to-end 
           software development in a timely manner to meet contract deadlines while also assisting more experienced developers re-factor and 
           debug their code.</p>
-          <p>- Increased efficiency and collaboration at work-place by assisting senior devs with front-end code.</p>
-        </Row>
-        <Row>
-          <h4>GCT Logistics</h4>
-        </Row>
-        <Row>
-          <h5>Logistics Manager - Houston,TX | 01/2018-04/2020</h5>
-          <p>Effectively coordinated oil and gas material to be delivered to location in a timely and safe manner.</p>
-          <p>- Decreased company spending and increased revenue by brokering more deliveries to South Texas instead of out of state.</p>
+          <ul>
+            <li>Increased efficiency and collaboration at work-place by assisting senior devs with front-end code.</li>
+            <li>Debug and re-factor Java code using Eclipse IDE.</li>
+            <li>Add property management and inventory information (photos, prices, descriptions etc.) into MySQL databases</li>
+            <li>Use MongoDB and Studio3T to add construction company photos and projects.</li>
+            <li>Utilize Chart.js to provide yearly and quarterly revenue information.</li>
+            <li>Use Google Firebase to create User Authentication forms for private construction company. </li>
+            <li>Utilize Visual Studio, Bootstrap 4, HTML, CSS, Jquery, Reactjs, Node.js to create dynamic and easy to navigate User Interfaces for private consulting companies. (All front-end applications were created in Visual Studio)</li>
+            <li>Collaborate with team members to create mobile friendly UI.</li>
+            <li>Constant learning through online resources to implement the latest software trends and libraries (i.e React.js, Angular.js, Vue.js</li>
+          </ul>
         </Row>
         <Row>
           <h4>Wood</h4>
