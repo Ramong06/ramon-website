@@ -30,7 +30,7 @@ function Resume() {
           HTML, CSS, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, React Hooks, JSON, Sequelize, Java, Springboot,
           debugging, Excel, Vue.js, Python.</p>
           </Row>
-          {/* <Row className='skillsBar'>
+          <Row className='skillsBar'>
             <h6>Skill Level</h6>
             <SkillsBar name="HTML5" value={90} />
             <SkillsBar name="CSS3" value={90} />
@@ -46,7 +46,7 @@ function Resume() {
             <SkillsBar name="Java" value={85} />
             <SkillsBar name="Node.js" value={85} />
             <SkillsBar name="Python" value={70} />
-          </Row> */}
+          </Row>
         <Row>
           <h2>PROFESSIONAL EXPERIENCE</h2>
         </Row>
