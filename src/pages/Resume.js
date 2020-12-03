@@ -3,7 +3,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import "../App.css"
 import Container from "../components/Container";
-// import SkillsBar from '../components/SkillsBar';
+import SkillsBar from '../components/SkillsBar';
 import Row from "../components/Row";
 import Col from "../components/Col";
 
@@ -24,13 +24,13 @@ function Resume() {
           React and SQL. Excellent communication skills and collaborator who works well on team-based projects as well as independently. Recognized
           for problem-solving and ability to adapt and implement new information as a part of a fast-paced environment.</p>
         </Row>
-          <Row>
+        <Row>
           <h2>TECHNICAL SKILLS</h2>
           <p>Node.Js., Express, JavaScript, ES 6+, jQuery, React.js, React 16.8+/Redux, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
           HTML, CSS, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, React Hooks, JSON, Sequelize, Java, Springboot,
           debugging, Excel, Vue.js, Python.</p>
-          </Row>
-          <Row className='skillsBar'>
+        </Row>
+        <Row className='skillsBar'>
             <h6>Skill Level</h6>
             <SkillsBar name="HTML5" value={90} />
             <SkillsBar name="CSS3" value={90} />
@@ -46,7 +46,7 @@ function Resume() {
             <SkillsBar name="Java" value={85} />
             <SkillsBar name="Node.js" value={85} />
             <SkillsBar name="Python" value={70} />
-          </Row>
+        </Row>
         <Row>
           <h2>PROFESSIONAL EXPERIENCE</h2>
         </Row>
