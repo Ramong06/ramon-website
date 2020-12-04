@@ -2,6 +2,8 @@
 import React from "react";
 import Nav from "../components/Nav";
 import "../App.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import resumepdf from '../assets/ramon-resume.pdf';
 import Container from "../components/Container";
 import SkillsBar from '../components/SkillsBar';
 import Row from "../components/Row";
@@ -40,7 +42,13 @@ function Resume() {
             <SkillsBar name="Java" value={85} />
             <SkillsBar name="Node.js" value={85} />
             <SkillsBar name="Python" value={70} />
-          </div>
+            </div>
+              <a href={resumepdf} download="ramon-resume">
+                <button className="resume-btn" type="button">
+                  <FontAwesomeIcon icon={["fas", "file-download"]} />
+                  &nbsp; DOWNLOAD RESUME
+                </button>
+              </a>
           </Col>
           <Col size="md-8 sm-6 justify-content-md-center">
           <div>
