@@ -10,3 +10,22 @@
 .bootcampCert {
     filter: brightness(95%);
 }
+
+.resume-btn {
+  border-radius: 5px;
+  background: #2c3687;
+  color: white;
+  transition: 0.25s ease;
+  border: none;
+  font-size: 16px;
+  padding: 8px 10px;
+  width: 280px;
+  margin: 0;
+}
+
+.resume-btn:hover {
+  color: #2c3687;
+  background-color: transparent;
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  border: 0.5px solid transparent;
+}

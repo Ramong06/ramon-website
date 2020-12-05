@@ -2,12 +2,12 @@
 import React from "react";
 import Nav from "../components/Nav";
 import "../App.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import resumepdf from '../assets/ramon-resume.pdf';
 import Container from "../components/Container";
 import SkillsBar from '../components/SkillsBar';
 import Row from "../components/Row";
 import Col from "../components/Col";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function Resume() {
