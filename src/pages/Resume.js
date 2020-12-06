@@ -23,7 +23,7 @@ function Resume() {
         <div>
           <h2>TECHNICAL SKILLS</h2>
           <p>Node.Js., Express, JavaScript, ES 6+, jQuery, React.js, React 16.8+/Redux, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
-          HTML, CSS, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, React Hooks, JSON, Sequelize, Java, Springboot,
+          HTML, CSS, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Rest API, GraphQL, React Hooks, JSON, Sequelize, Java, Springboot,
           debugging, Excel, Vue.js, Python.</p>
         </div>
         <div className='skillsBar'>
@@ -33,7 +33,8 @@ function Resume() {
             <SkillsBar name="JavaScript" value={90} />
             <SkillsBar name="React.js" value={90} />
             <SkillsBar name="Bootstrap" value={95} />
-            <SkillsBar name="Restful API" value={80} />
+            <SkillsBar name="Rest API" value={80} />
+            <SkillsBar name="GraphQL" value={80} />
             <SkillsBar name="JQuery" value={80} />
             <SkillsBar name="MongoDB" value={80} />
             <SkillsBar name="MySQL" value={75} />
@@ -45,7 +46,7 @@ function Resume() {
             </div>
               <a href={resumepdf} download="ramon-resume">
                 <button className="resume-btn" type="button">
-                  <FontAwesomeIcon icon={["fas", "file-download"]} />
+                  <FontAwesomeIcon icon={["fab", "file-download"]} />
                   &nbsp; DOWNLOAD RESUME
                 </button>
               </a>
