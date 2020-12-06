@@ -7,6 +7,7 @@ import Container from "../components/Container";
 import SkillsBar from '../components/SkillsBar';
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Footer from "../components/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
@@ -112,7 +113,7 @@ function Resume() {
           </Col>
           </Row>
       </Container>
-        
+        <Footer />
       </div>
     );
 }
