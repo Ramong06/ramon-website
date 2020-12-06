@@ -8,6 +8,7 @@ import SkillsBar from '../components/SkillsBar';
 import Row from "../components/Row";
 import Col from "../components/Col";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 
 function Resume() {
@@ -46,7 +47,7 @@ function Resume() {
             </div>
               <a href={resumepdf} download="ramon-resume">
                 <button className="resume-btn" type="button">
-                  <FontAwesomeIcon icon={["fas", "file"]} />
+                  <FontAwesomeIcon icon={faDownload} />
                   &nbsp; DOWNLOAD RESUME
                 </button>
               </a>
