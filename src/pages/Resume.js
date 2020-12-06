@@ -46,7 +46,7 @@ function Resume() {
             </div>
               <a href={resumepdf} download="ramon-resume">
                 <button className="resume-btn" type="button">
-                  <FontAwesomeIcon icon={["fab", "file-download"]} />
+                  <FontAwesomeIcon icon={["fas", "file"]} />
                   &nbsp; DOWNLOAD RESUME
                 </button>
               </a>
@@ -67,7 +67,7 @@ function Resume() {
           <h4>Spatial Consulting</h4>
         </div>
         <div>
-          <h5>Full Stack Developer - Houston, TX | 01/2018-Present</h5>
+          <h5>Full Stack Developer - Houston, TX | 01/2017-Present</h5>
           <p>Interfacing and translating client’s business requirements into technical applications and solutions. Tasked to handle end-to-end 
           software development in a timely manner to meet contract deadlines while also assisting more experienced developers re-factor and 
           debug their code.</p>
@@ -87,7 +87,7 @@ function Resume() {
           <h4>Wood</h4>
         </div>
         <div>
-          <h4>Multi-Skilled Operator (MSO) - South, TX | 10/2011 - 12/2018</h4>
+          <h4>Multi-Skilled Operator (MSO) - South, TX | 10/2011 - 12/2017</h4>
           <p>Keep track of all single-well and multi-well facilities oil and natural gas production. Apply proper maintenance to equipment when
             and if necessary.</p>
           <ul>
