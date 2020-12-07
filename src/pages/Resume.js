@@ -56,7 +56,7 @@ function Resume() {
           <Col size="md-8 sm-6 justify-content-md-center">
           <div>
           <h2>PROFESSIONAL SUMMARY</h2>
-          <p>Front-End React Developer/Full Stack Developer leveraging nine years in oil and gas. Has a strong passion for innovation and a
+          <p>Front-End React Developer/Full Stack Developer/Back-End Programmer leveraging nine years in oil and gas. Has a strong passion for innovation and a
           keen eye for aesthetics and presentation as well as knowledge of Continuous integration/deployment. Recently obtained a certificate
           in web development from the University of Texas, gaining experience while also honing my skills in HTML, CSS , Bootstrap, Javascript,
           React and SQL. Excellent communication skills and collaborator who works well on team-based projects as well as independently. Recognized
